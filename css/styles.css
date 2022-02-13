@@ -1,0 +1,71 @@
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  /* to set root to 10px */
+  font-size: 62.5%;
+}
+
+:root {
+  --quiz-bgcolor: #6b7280;
+}
+
+body {
+  background-color: var(--call-to-action);
+}
+
+.quiz-bgcolor {
+  background-color: var(--off-white-b);
+}
+
+.quiz-cards-container {
+  display: flex;
+
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+#political-ques {
+  background-image: url(/assets/political.jpg);
+}
+
+#food-ques {
+  background-image: url(/assets/food.jpg);
+
+  background-position: 50%;
+}
+
+#moon-ques {
+  background-image: url(/assets/moon.jpg);
+
+  background-position: 50%;
+}
+
+.quiz-cards-container {
+  display: flex;
+}
+
+.heading-div {
+  text-align: center;
+}
+
+.heading-div h1 {
+  font-size: 5rem;
+
+  padding: 2rem;
+
+  color: var(--off-white-b);
+}
+
+.header-ascent-quiz {
+  background: -webkit-linear-gradient(left, var(--indigo), var(--highlight));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
