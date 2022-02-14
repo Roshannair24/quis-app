@@ -145,6 +145,8 @@ body {
   border-color: var(--quiz-bgcolor);
 
   background-color: var(--call-to-action);
+
+  cursor: pointer;
 }
 
 .correct-btn {
@@ -153,6 +155,8 @@ body {
   border-color: var(--indigreen);
 
   background-color: var(--indigreen);
+  cursor: pointer;
+
 }
 
 .wrong-btn {
@@ -161,6 +165,8 @@ body {
   border-color: var(--red-light);
 
   background-color: var(--red-light);
+  cursor: pointer;
+
 }
 
 .correct-btn:hover {
@@ -188,4 +194,14 @@ body {
   box-shadow: 0 0 5px var(--indigo);
   
   transition: all 0.5s ease;
+}
+
+.rules-info-div{
+
+  justify-content: flex-end;
+}
+
+.pointer{
+
+  cursor: pointer;
 }
