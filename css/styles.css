@@ -14,6 +14,10 @@ html {
 
 :root {
   --quiz-bgcolor: #6b7280;
+
+
+
+  
 }
 
 body {
@@ -232,4 +236,11 @@ bottom: 0;
 color: var(--off-white-b);
 
 
+}
+
+.quiz-cards-container a:hover{
+  transition: all 0.5s ease;
+
+
+box-shadow: 0 0 15px #221824;
 }
