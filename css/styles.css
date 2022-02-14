@@ -162,3 +162,30 @@ body {
 
   background-color: var(--red-light);
 }
+
+.correct-btn:hover {
+  background-color: var(--indigreen);
+
+  color: var(--call-to-action);
+  box-shadow: 0 0 5px var(--indigreen);
+  
+  transition: all 0.5s ease;
+}
+
+.wrong-btn:hover {
+  background-color: var(--red-light);
+
+  color: var(--call-to-action);
+  box-shadow: 0 0 5px var(--red-light);
+  
+  transition: all 0.5s ease;
+}
+
+.default-btn:hover {
+  background-color: var(--indigo);
+
+  color: var(--call-to-action);
+  box-shadow: 0 0 5px var(--indigo);
+  
+  transition: all 0.5s ease;
+}
