@@ -205,3 +205,31 @@ body {
 
   cursor: pointer;
 }
+
+a{
+  color: var(--off-white-b);
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.back:hover{
+color: var(--indigreen);
+
+transition: all 0.5s ease;
+
+}
+
+
+.quiz-cards-container + footer{
+color: var(--off-white-b);
+
+position: fixed;
+bottom: 0;
+
+}
+
+.quiz-cards-container + footer .bx{
+color: var(--off-white-b);
+
+
+}
