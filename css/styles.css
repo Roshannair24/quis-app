@@ -54,6 +54,8 @@ body {
 
 .heading-div {
   text-align: center;
+
+  color: var(--off-white-b);
 }
 
 .heading-div h1 {
@@ -68,4 +70,95 @@ body {
   background: -webkit-linear-gradient(left, var(--indigo), var(--highlight));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* styles question block */
+
+.questions-container {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+
+  gap: 2rem;
+
+  align-items: center;
+}
+
+.quiz-question-block {
+  background-color: var(--call-to-action);
+
+  border-style: solid;
+  border-color: var(--quiz-bgcolor);
+
+  color: var(--off-white-b);
+  width: 60rem;
+
+  border-radius: 8px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 1rem;
+
+  gap: 15px;
+}
+
+.info-div {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.question-div {
+  color: var(--off-white-b);
+}
+
+.options-div {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.q-option {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+  width: 100%;
+}
+
+.info-div-dark {
+  color: var(--quiz-bgcolor);
+}
+
+.info-div-light {
+  color: var(--off-white-b);
+}
+
+.default-btn {
+  color: var(--off-white-b);
+  border-style: solid;
+  border-color: var(--quiz-bgcolor);
+
+  background-color: var(--call-to-action);
+}
+
+.correct-btn {
+  color: var(--call-to-action);
+  border-style: solid;
+  border-color: var(--indigreen);
+
+  background-color: var(--indigreen);
+}
+
+.wrong-btn {
+  color: var(--call-to-action);
+  border-style: solid;
+  border-color: var(--red-light);
+
+  background-color: var(--red-light);
 }
