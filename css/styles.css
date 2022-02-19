@@ -14,10 +14,6 @@ html {
 
 :root {
   --quiz-bgcolor: #6b7280;
-
-
-
-  
 }
 
 body {
@@ -160,7 +156,6 @@ body {
 
   background-color: var(--indigreen);
   cursor: pointer;
-
 }
 
 .wrong-btn {
@@ -170,7 +165,6 @@ body {
 
   background-color: var(--red-light);
   cursor: pointer;
-
 }
 
 .correct-btn:hover {
@@ -178,7 +172,7 @@ body {
 
   color: var(--call-to-action);
   box-shadow: 0 0 5px var(--indigreen);
-  
+
   transition: all 0.5s ease;
 }
 
@@ -187,7 +181,7 @@ body {
 
   color: var(--call-to-action);
   box-shadow: 0 0 5px var(--red-light);
-  
+
   transition: all 0.5s ease;
 }
 
@@ -196,66 +190,58 @@ body {
 
   color: var(--call-to-action);
   box-shadow: 0 0 5px var(--indigo);
-  
+
   transition: all 0.5s ease;
 }
 
-.rules-info-div{
-
+.rules-info-div {
   justify-content: flex-end;
 }
 
-.pointer{
-
+.pointer {
   cursor: pointer;
 }
 
-a{
+a {
   color: var(--off-white-b);
   color: aquamarine;
   text-decoration: none;
 }
 
-.back:hover{
-color: var(--indigreen);
+.back:hover {
+  color: var(--indigreen);
 
-transition: all 0.5s ease;
-
+  transition: all 0.5s ease;
 }
 
+.quiz-cards-container + footer {
+  color: var(--off-white-b);
 
-.quiz-cards-container + footer{
-color: var(--off-white-b);
-
-position: fixed;
-bottom: 0;
-
+  position: fixed;
+  bottom: 0;
 }
 
-.quiz-cards-container + footer .bx{
-color: var(--off-white-b);
-
-
+.quiz-cards-container + footer .bx {
+  color: var(--off-white-b);
 }
 
-.quiz-cards-container a:hover{
+.quiz-cards-container a:hover {
   transition: all 0.5s ease;
 
-
-box-shadow: 0 0 15px #221824;
+  box-shadow: 0 0 15px #221824;
 }
-
 
 .k-homepage-footer {
   color: var(--off-white-b);
-  
+
   position: fixed;
   bottom: 0;
-  /* background-color: blue; */
-  }
+}
 
-  footer .bx{
-    color: var(--off-white-b);
-    
-    
-    }
+.k-finalscore-footer {
+  color: var(--off-white-b);
+}
+
+footer .bx {
+  color: var(--off-white-b);
+}
