@@ -244,3 +244,18 @@ color: var(--off-white-b);
 
 box-shadow: 0 0 15px #221824;
 }
+
+
+.k-homepage-footer {
+  color: var(--off-white-b);
+  
+  position: fixed;
+  bottom: 0;
+  /* background-color: blue; */
+  }
+
+  footer .bx{
+    color: var(--off-white-b);
+    
+    
+    }
