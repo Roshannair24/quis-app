@@ -225,9 +225,14 @@ a {
   color: var(--off-white-b);
 }
 
+.quiz-cards-container a{
+  transition: all 0.5s ease;
+ 
+}
+
 .quiz-cards-container a:hover {
   transition: all 0.5s ease;
-
+  transform: scale(1.03);
   box-shadow: 0 0 15px #221824;
 }
 
