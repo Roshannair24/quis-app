@@ -50,6 +50,7 @@ body {
 
 .quiz-cards-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .heading-div {
@@ -225,14 +226,13 @@ a {
   color: var(--off-white-b);
 }
 
-.quiz-cards-container a{
+.quiz-cards-container a {
   transition: all 0.5s ease;
- 
 }
 
 .quiz-cards-container a:hover {
   transition: all 0.5s ease;
-  transform: scale(1.03);
+  transform: scale(1.02);
   box-shadow: 0 0 15px #221824;
 }
 
@@ -249,4 +249,10 @@ a {
 
 footer .bx {
   color: var(--off-white-b);
+}
+
+@media only screen and (max-width: 768px) {
+  .quiz-question-block {
+    width: 40rem;
+  }
 }
