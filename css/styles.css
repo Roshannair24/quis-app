@@ -253,6 +253,10 @@ footer .bx {
 
 @media only screen and (max-width: 768px) {
   .quiz-question-block {
-    width: 40rem;
+    width: 30rem;
+  }
+
+  .options-div a {
+    text-align: center;
   }
 }
